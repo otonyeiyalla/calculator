@@ -194,15 +194,18 @@
 					3E8BA70E1D65A64E00783F9C = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 6H363UGR88;
+						LastSwiftMigration = 0810;
 					};
 					3E8BA7221D65A64E00783F9C = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 6H363UGR88;
+						LastSwiftMigration = 0810;
 						TestTargetID = 3E8BA70E1D65A64E00783F9C;
 					};
 					3E8BA72D1D65A64E00783F9C = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 6H363UGR88;
+						LastSwiftMigration = 0810;
 						TestTargetID = 3E8BA70E1D65A64E00783F9C;
 					};
 				};
@@ -406,6 +409,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.0t33.chpt5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -417,6 +421,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.0t33.chpt5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -428,6 +433,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.0t33.chpt5Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chpt5.app/chpt5";
 			};
 			name = Debug;
@@ -440,6 +446,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.0t33.chpt5Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chpt5.app/chpt5";
 			};
 			name = Release;
@@ -451,6 +458,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.0t33.chpt5UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = chpt5;
 			};
 			name = Debug;
@@ -462,6 +470,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.0t33.chpt5UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = chpt5;
 			};
 			name = Release;
@@ -485,6 +494,7 @@
 				3E8BA7391D65A64E00783F9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E8BA73A1D65A64E00783F9C /* Build configuration list for PBXNativeTarget "chpt5Tests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +503,7 @@
 				3E8BA73C1D65A64E00783F9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E8BA73D1D65A64E00783F9C /* Build configuration list for PBXNativeTarget "chpt5UITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +512,7 @@
 				3E8BA73F1D65A64E00783F9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
